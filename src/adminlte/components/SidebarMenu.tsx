@@ -234,19 +234,19 @@ const SidebarMenu: React.FC = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                            <a href="pages/tables/simple.html" className="nav-link">
+                            <a href="/tables/simple" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Simple Tables</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/tables/data.html" className="nav-link">
+                            <a href="/tables/data" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>DataTables</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/tables/jsgrid.html" className="nav-link">
+                            <a href="/tables/jsgrid" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>jsGrid</p>
                             </a>
