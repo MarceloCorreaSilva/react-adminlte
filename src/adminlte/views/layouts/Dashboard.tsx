@@ -1,11 +1,16 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
-import ContentWrapper from './adminlte/components/ContentWrapper';
-import ControlSidebar from './adminlte/components/ControlSidebar';
-import Footer from './adminlte/components/Footer';
-import MainSidebar from './adminlte/components/MainSidebar';
-import Navbar from './adminlte/components/Navbar';
+import ContentWrapper from '../../components/ContentWrapper';
+import ControlSidebar from '../../components/ControlSidebar';
+import Footer from '../../components/Footer';
+import MainSidebar from '../../components/MainSidebar';
+import Navbar from '../../components/Navbar';
 
-const App: React.FC = () => {
+interface Props {
+    children: React.ReactNode;
+}
+
+const layouts: React.FC<Props> = ({ children }) => {
     return (
         <div className="wrapper">
             {/* Navbar */}
@@ -17,7 +22,7 @@ const App: React.FC = () => {
             {/* /.main-navbar */}
 
             {/* Content Wrapper. Contains page content */}
-            <ContentWrapper />
+            <ContentWrapper>{children}</ContentWrapper>
             {/* /.content-wrapper */}
 
             {/* Footer */}
@@ -31,4 +36,4 @@ const App: React.FC = () => {
     );
 };
 
-export default App;
+export default layouts;
