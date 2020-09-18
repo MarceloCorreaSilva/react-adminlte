@@ -2,7 +2,7 @@ import React from 'react';
 
 const SidebarBrandLogo: React.FC = () => {
     return (
-        <a href="index3.html" className="brand-link">
+        <a href="/" className="brand-link">
             <img
                 src={`${process.env.PUBLIC_URL}/assets/adminlte/dist/img/AdminLTELogo.png`}
                 alt="AdminLTE Logo"
