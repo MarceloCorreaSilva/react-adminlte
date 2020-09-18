@@ -140,49 +140,49 @@ const SidebarMenu: React.FC = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                            <a href="pages/UI/general.html" className="nav-link">
+                            <a href="/ui/general" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>General</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/icons.html" className="nav-link">
+                            <a href="/ui/icons" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Icons</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/buttons.html" className="nav-link">
+                            <a href="/ui/buttons" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Buttons</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/sliders.html" className="nav-link">
+                            <a href="/ui/sliders" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Sliders</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/modals.html" className="nav-link">
+                            <a href="/ui/modals" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Modals &amp; Alerts</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/navbar.html" className="nav-link">
+                            <a href="/ui/navbar" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Navbar &amp; Tabs</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/timeline.html" className="nav-link">
+                            <a href="/ui/timeline" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Timeline</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/UI/ribbons.html" className="nav-link">
+                            <a href="/ui/ribbons" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Ribbons</p>
                             </a>
