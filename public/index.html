@@ -26,8 +26,15 @@
     -->
     <title>React App</title>
 
-    <!-- Font Awesome -->
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/fontawesome-free/css/all.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bbootstrap 4 -->
@@ -36,18 +43,12 @@
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- JQVMap -->
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/jqvmap/jqvmap.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/dist/css/adminlte.min.css">
-    <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/adminlte/plugins/summernote/summernote-bs4.css">
-    <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   </head>
-  <body>
+  <body class="hold-transition sidebar-mini layout-fixed">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -61,16 +62,26 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+    <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
     <script src="%PUBLIC_URL%/assets/adminlte/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="%PUBLIC_URL%/assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="%PUBLIC_URL%/assets/adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="%PUBLIC_URL%/assets/adminlte/dist/js/adminlte.js"></script>
+
+    <!-- OPTIONAL SCRIPTS -->
+    <script src="%PUBLIC_URL%/assets/adminlte/dist/js/demo.js"></script>
+
+    <!-- PAGE PLUGINS -->
     <!-- jQuery UI 1.11.4 -->
     <script src="%PUBLIC_URL%/assets/adminlte/plugins/jquery-ui/jquery-ui.min.js"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
       $.widget.bridge('uibutton', $.ui.button)
     </script>
-    <!-- Bootstrap 4 -->
-    <script src="%PUBLIC_URL%/assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- ChartJS -->
     <script src="%PUBLIC_URL%/assets/adminlte/plugins/chart.js/Chart.min.js"></script>
     <!-- Sparkline -->
@@ -87,13 +98,8 @@
     <script src="%PUBLIC_URL%/assets/adminlte/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
     <!-- Summernote -->
     <script src="%PUBLIC_URL%/assets/adminlte/plugins/summernote/summernote-bs4.min.js"></script>
-    <!-- overlayScrollbars -->
-    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="%PUBLIC_URL%/assets/adminlte/dist/js/adminlte.js"></script>
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
+    <!-- PAGE SCRIPTS -->
     <script src="%PUBLIC_URL%/assets/adminlte/dist/js/pages/dashboard.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="%PUBLIC_URL%/assets/adminlte/dist/js/demo.js"></script>
   </body>
 </html>
