@@ -9,6 +9,10 @@ import InlineCharts from './adminlte/views/page/Charts/Inline';
 import SimpleTable from './adminlte/views/page/Tables/Simple';
 import DataTable from './adminlte/views/page/Tables/Data';
 import JsGridTable from './adminlte/views/page/Tables/JsGrid';
+import GeneralForm from './adminlte/views/page/Forms/General';
+import AdvancedForm from './adminlte/views/page/Forms/Advanced';
+import EditorsForm from './adminlte/views/page/Forms/Editors';
+import ValidationForm from './adminlte/views/page/Forms/Validation';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -22,6 +26,10 @@ ReactDOM.render(
                 <Route path="/tables/simple" component={SimpleTable} />
                 <Route path="/tables/data" component={DataTable} />
                 <Route path="/tables/jsgrid" component={JsGridTable} />
+                <Route path="/forms/general" component={GeneralForm} />
+                <Route path="/forms/advanced" component={AdvancedForm} />
+                <Route path="/forms/editors" component={EditorsForm} />
+                <Route path="/forms/validation" component={ValidationForm} />
             </Switch>
         </BrowserRouter>
     </React.StrictMode>,
