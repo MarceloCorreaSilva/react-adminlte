@@ -255,7 +255,7 @@ const SidebarMenu: React.FC = () => {
                 </li>
                 <li className="nav-header">EXAMPLES</li>
                 <li className="nav-item">
-                    <a href="pages/calendar.html" className="nav-link">
+                    <a href="/calendar" className="nav-link">
                         <i className="nav-icon far fa-calendar-alt" />
                         <p>
                             Calendar
