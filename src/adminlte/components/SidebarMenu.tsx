@@ -19,7 +19,7 @@ const SidebarMenu: React.FC = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                            <a href="./index.html" className="nav-link active">
+                            <a href="/" className="nav-link active">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Dashboard v1</p>
                             </a>
@@ -111,19 +111,19 @@ const SidebarMenu: React.FC = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                            <a href="pages/charts/chartjs.html" className="nav-link">
+                            <a href="/charts/chartjs" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>ChartJS</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/charts/flot.html" className="nav-link">
+                            <a href="/charts/flot" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Flot</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/charts/inline.html" className="nav-link">
+                            <a href="/charts/inline" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Inline</p>
                             </a>

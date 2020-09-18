@@ -4,7 +4,7 @@ const SidebarBrandLogo: React.FC = () => {
     return (
         <a href="index3.html" className="brand-link">
             <img
-                src="assets/adminlte/dist/img/AdminLTELogo.png"
+                src={`${process.env.PUBLIC_URL}/assets/adminlte/dist/img/AdminLTELogo.png`}
                 alt="AdminLTE Logo"
                 className="brand-image img-circle elevation-3"
                 style={{ opacity: '.8' }}
