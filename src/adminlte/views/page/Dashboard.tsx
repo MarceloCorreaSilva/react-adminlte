@@ -10,7 +10,7 @@ import Layout from '../layouts/Dashboard';
 
 const Dashboard: React.FC = () => {
     return (
-        <Layout>
+        <Layout title="Dashboard">
             <div className="container-fluid">
                 {/* Small boxes (Stat box) */}
                 <div className="row">

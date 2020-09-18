@@ -39,7 +39,7 @@ const SidebarMenu: React.FC = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a href="pages/widgets.html" className="nav-link">
+                    <a href="/widgets" className="nav-link">
                         <i className="nav-icon fas fa-th" />
                         <p>
                             Widgets

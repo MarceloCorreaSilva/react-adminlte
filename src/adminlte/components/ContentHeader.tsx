@@ -1,12 +1,17 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 
-const ContentHeader: React.FC = () => {
+interface Props {
+    title: string;
+}
+
+const ContentHeader: React.FC<Props> = ({ title }) => {
     return (
         <div className="content-header">
             <div className="container-fluid">
                 <div className="row mb-2">
                     <div className="col-sm-6">
-                        <h1 className="m-0 text-dark">Dashboard</h1>
+                        <h1 className="m-0 text-dark">{title}</h1>
                     </div>
                     {/* /.col */}
                     <div className="col-sm-6">
@@ -14,7 +19,7 @@ const ContentHeader: React.FC = () => {
                             <li className="breadcrumb-item">
                                 <a href="!#">Home</a>
                             </li>
-                            <li className="breadcrumb-item active">Dashboard v1</li>
+                            <li className="breadcrumb-item active">{title}</li>
                         </ol>
                     </div>
                     {/* /.col */}

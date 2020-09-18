@@ -8,9 +8,10 @@ import Navbar from '../../components/Navbar';
 
 interface Props {
     children: React.ReactNode;
+    title: string;
 }
 
-const layouts: React.FC<Props> = ({ children }) => {
+const layouts: React.FC<Props> = ({ children, title }) => {
     return (
         <div className="wrapper">
             {/* Navbar */}
@@ -22,7 +23,7 @@ const layouts: React.FC<Props> = ({ children }) => {
             {/* /.main-navbar */}
 
             {/* Content Wrapper. Contains page content */}
-            <ContentWrapper>{children}</ContentWrapper>
+            <ContentWrapper title={title}>{children}</ContentWrapper>
             {/* /.content-wrapper */}
 
             {/* Footer */}
