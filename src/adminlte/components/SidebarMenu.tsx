@@ -264,7 +264,7 @@ const SidebarMenu: React.FC = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="pages/gallery.html" className="nav-link">
+                    <a href="/gallery" className="nav-link">
                         <i className="nav-icon far fa-image" />
                         <p>Gallery</p>
                     </a>

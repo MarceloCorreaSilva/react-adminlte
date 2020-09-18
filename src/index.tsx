@@ -22,6 +22,7 @@ import NavbarUi from './adminlte/views/page/Ui/Navbar';
 import TimelineUi from './adminlte/views/page/Ui/Timeline';
 import RibbonsUi from './adminlte/views/page/Ui/Ribbons';
 import Calendar from './adminlte/views/page/Calendar';
+import Gallery from './adminlte/views/page/Gallery';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -48,6 +49,7 @@ ReactDOM.render(
                 <Route path="/ui/timeline" component={TimelineUi} />
                 <Route path="/ui/ribbons" component={RibbonsUi} />
                 <Route path="/calendar" component={Calendar} />
+                <Route path="/gallery" component={Gallery} />
             </Switch>
         </BrowserRouter>
     </React.StrictMode>,
