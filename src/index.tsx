@@ -30,6 +30,9 @@ import Invoice from './adminlte/views/page/pages/Invoice';
 import Profile from './adminlte/views/page/pages/Profile';
 import ECommerce from './adminlte/views/page/pages/ECommerce';
 import Projects from './adminlte/views/page/pages/Projects';
+import ProjectAdd from './adminlte/views/page/pages/ProjectAdd';
+import ProjectEdit from './adminlte/views/page/pages/ProjectEdit';
+import ProjectDetail from './adminlte/views/page/pages/ProjectDetail';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -64,6 +67,9 @@ ReactDOM.render(
                 <Route path="/pages/profile" component={Profile} />
                 <Route path="/pages/e-commerce" component={ECommerce} />
                 <Route path="/pages/projects" component={Projects} />
+                <Route path="/pages/project-add" component={ProjectAdd} />
+                <Route path="/pages/project-edit" component={ProjectEdit} />
+                <Route path="/pages/project-detail" component={ProjectDetail} />
             </Switch>
         </BrowserRouter>
     </React.StrictMode>,

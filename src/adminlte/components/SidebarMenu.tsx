@@ -350,7 +350,7 @@ const SidebarMenu: React.FC = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="/pages/examples/contacts" className="nav-link">
+                            <a href="/pages/contacts" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Contacts</p>
                             </a>
