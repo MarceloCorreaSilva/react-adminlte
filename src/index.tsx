@@ -33,6 +33,7 @@ import Projects from './adminlte/views/page/pages/Projects';
 import ProjectAdd from './adminlte/views/page/pages/ProjectAdd';
 import ProjectEdit from './adminlte/views/page/pages/ProjectEdit';
 import ProjectDetail from './adminlte/views/page/pages/ProjectDetail';
+import Contacts from './adminlte/views/page/pages/Contacts';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -70,6 +71,7 @@ ReactDOM.render(
                 <Route path="/pages/project-add" component={ProjectAdd} />
                 <Route path="/pages/project-edit" component={ProjectEdit} />
                 <Route path="/pages/project-detail" component={ProjectDetail} />
+                <Route path="/pages/contacts" component={Contacts} />
             </Switch>
         </BrowserRouter>
     </React.StrictMode>,
