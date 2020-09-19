@@ -88,9 +88,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={57}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={57}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '57%' }}
                                         ></div>
                                     </div>
@@ -144,9 +144,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={47}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={47}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '47%' }}
                                         ></div>
                                     </div>
@@ -207,9 +207,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={77}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={77}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '77%' }}
                                         ></div>
                                     </div>
@@ -277,9 +277,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={60}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={60}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '60%' }}
                                         ></div>
                                     </div>
@@ -340,9 +340,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={12}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={12}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '12%' }}
                                         ></div>
                                     </div>
@@ -410,9 +410,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={35}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={35}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '35%' }}
                                         ></div>
                                     </div>
@@ -466,9 +466,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={87}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={87}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '87%' }}
                                         ></div>
                                     </div>
@@ -529,9 +529,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={77}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={77}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '77%' }}
                                         ></div>
                                     </div>
@@ -599,9 +599,9 @@ const Projects: React.FC = () => {
                                         <div
                                             className="progress-bar bg-green"
                                             role="progressbar"
-                                            aria-volumenow={77}
-                                            aria-volumemin={0}
-                                            aria-volumemax={100}
+                                            // aria-volumenow={77}
+                                            // aria-volumemin={0}
+                                            // aria-volumemax={100}
                                             style={{ width: '77%' }}
                                         ></div>
                                     </div>
