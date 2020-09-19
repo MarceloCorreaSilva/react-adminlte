@@ -279,19 +279,19 @@ const SidebarMenu: React.FC = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                            <a href="pages/mailbox/mailbox.html" className="nav-link">
+                            <a href="/mailbox" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Inbox</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/mailbox/compose.html" className="nav-link">
+                            <a href="/mailbox/compose" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Compose</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/mailbox/read-mail.html" className="nav-link">
+                            <a href="/mailbox/read-mail" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Read</p>
                             </a>

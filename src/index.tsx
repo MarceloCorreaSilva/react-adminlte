@@ -23,6 +23,9 @@ import TimelineUi from './adminlte/views/page/Ui/Timeline';
 import RibbonsUi from './adminlte/views/page/Ui/Ribbons';
 import Calendar from './adminlte/views/page/Calendar';
 import Gallery from './adminlte/views/page/Gallery';
+import Mailbox from './adminlte/views/page/Mailbox/Mailbox';
+import Compose from './adminlte/views/page/Mailbox/Compose';
+import ReadEmail from './adminlte/views/page/Mailbox/ReadEmail';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -50,6 +53,9 @@ ReactDOM.render(
                 <Route path="/ui/ribbons" component={RibbonsUi} />
                 <Route path="/calendar" component={Calendar} />
                 <Route path="/gallery" component={Gallery} />
+                <Route path="/mailbox" component={Mailbox} exact />
+                <Route path="/mailbox/compose" component={Compose} />
+                <Route path="/mailbox/read-mail" component={ReadEmail} />
             </Switch>
         </BrowserRouter>
     </React.StrictMode>,
