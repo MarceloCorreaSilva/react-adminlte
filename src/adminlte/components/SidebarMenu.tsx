@@ -308,49 +308,49 @@ const SidebarMenu: React.FC = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                            <a href="pages/examples/invoice.html" className="nav-link">
+                            <a href="pages/invoice" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Invoice</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/profile.html" className="nav-link">
+                            <a href="pages/profile" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Profile</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/e-commerce.html" className="nav-link">
+                            <a href="pages/e-commerce" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>E-commerce</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/projects.html" className="nav-link">
+                            <a href="pages/projects" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Projects</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/project-add.html" className="nav-link">
+                            <a href="pages/project-add" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Project Add</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/project-edit.html" className="nav-link">
+                            <a href="pages/project-edit" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Project Edit</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/project-detail.html" className="nav-link">
+                            <a href="pages/project-detail" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Project Detail</p>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="pages/examples/contacts.html" className="nav-link">
+                            <a href="pages/examples/contacts" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Contacts</p>
                             </a>
