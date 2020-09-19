@@ -27,6 +27,7 @@ import Mailbox from './adminlte/views/page/Mailbox/Mailbox';
 import Compose from './adminlte/views/page/Mailbox/Compose';
 import ReadEmail from './adminlte/views/page/Mailbox/ReadEmail';
 import Invoice from './adminlte/views/page/pages/Invoice';
+import Profile from './adminlte/views/page/pages/Profile';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -58,6 +59,7 @@ ReactDOM.render(
                 <Route path="/mailbox/compose" component={Compose} />
                 <Route path="/mailbox/read-mail" component={ReadEmail} />
                 <Route path="/pages/invoice" component={Invoice} />
+                <Route path="/pages/profile" component={Profile} />
             </Switch>
         </BrowserRouter>
     </React.StrictMode>,
